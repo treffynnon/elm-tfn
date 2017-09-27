@@ -1,6 +1,6 @@
 # elm-tfn
 
-Test the validity of a given Australian Tax File Number (TFN).
+Test the validity of a given 8 or 9 digit Australian Tax File Number (TFN).
 
 ## Usage
 

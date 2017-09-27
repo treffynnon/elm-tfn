@@ -1,5 +1,10 @@
 module Tfn exposing (isValid)
 
+{-| Test the validity of a given 8 or 9 digit Australian Tax File Number (TFN).
+
+@docs isValid
+-}
+
 import Char
 
 applyWeighting : List Int -> List Int -> Bool
@@ -18,6 +23,10 @@ sanitiseInput x =
     |> List.map (String.toInt >> Result.withDefault -1)
     |> List.filter ((<=) -1)
 
+{-| Check if a given 8 or 9 digit TFN is valid or not
+
+  isValid "555-000-555" == True
+-}
 isValid : String -> Bool
 isValid x =
   let input = sanitiseInput x
