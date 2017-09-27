@@ -1,12 +1,14 @@
 {
     "version": "1.0.0",
     "summary": "Test the validity of a given TFN",
-    "repository": "https://github.com/user/project.git",
+    "repository": "https://github.com/treffynnon/elm-tfn.git",
     "license": "Apache-2.0",
     "source-directories": [
         "./src"
     ],
-    "exposed-modules": [],
+    "exposed-modules": [
+        "Tfn"
+    ],
     "dependencies": {
         "elm-lang/core": "5.1.1 <= v < 6.0.0"
     },
