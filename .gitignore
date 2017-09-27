@@ -1,4 +1,7 @@
-# elm-package generated files
-elm-stuff
-# elm-repl generated files
+elm-stuff/
 repl-temp-*
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
